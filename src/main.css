@@ -1,0 +1,175 @@
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100px;
+}
+
+.App-header ul{
+  width: 100%;
+}
+
+.App-header ul li {
+  list-style: none;
+  float: left;
+  margin: 20px;
+  font-size: 35px;
+}
+
+.App-header ul li a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.App-header ul li a:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.App-header ul li a sup{
+  color: #0366EE;
+  cursor: pointer;
+}
+
+.cartIcon {
+  float: right !important;
+}
+
+.alignRight {
+  float: right !important;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.cartIcon:hover, .cartIcon:focus {
+  background: transparent;
+  border: 0px transparent;
+  color: grey;
+}
+
+.blockToInline {
+  display: inline-block;
+}
+
+.cartItem {
+  width: 90%;
+  border: 1px solid #D3D3D3;
+  box-shadow: 1px 1px #888888;
+  margin: 10px auto 0 auto;
+  color: #888888; 
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+}
+
+.cartItemImage {
+  width: 18%;
+  height: 100px;
+}
+
+.cartItemDetails {
+  width: 75%;
+  height: 100px;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  background-size: center;
+}
+
+.cartDelete {
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.productTable {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.productTable tr {
+  cursor: pointer;
+}
+
+.productTable tr:hover {
+  background: #dedede;
+}
+
+.productPrice {
+  color: blue;
+  font-weight: bold;
+}
+
+.pop_up_container{
+  padding: 0 3% 3% 3%
+}
+
+.cartDetailsHeight{
+  height: 50%;
+}
+
+.pop_up_Image {
+  width: 160px;
+  height: 160px;
+  background-position: center;
+  float: left;
+}
+
+.pop_up_item_details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pop_up_item_details > div{
+  margin-bottom: 15px;
+}
+
+.quantitySelect{
+  display: inline;
+  width: 60px;
+}
+
+.ratingsHigh{
+  color: green;
+  font-weight: bold;
+}
+
+.ratingsPoor{
+  color: red;
+  font-weight: bold;
+}
+
+.ratingsAvg{
+  color: orange;
+  font-weight: bold;
+}
+
+.popup_close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: red;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  color: white;
+  text-decoration: none !important;
+}
